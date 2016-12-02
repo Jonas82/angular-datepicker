@@ -1143,7 +1143,7 @@ $templateCache.put('templates/datepicker.html',
     "\n" +
     "                ng-click=\"selectDate(minute)\"\r" +
     "\n" +
-    "                ng-bind=\"minute|mFormat:'hoursFormat:tz\"></span>\r" +
+    "                ng-bind=\"minute|mFormat:hoursFormat:tz\"></span>\r" +
     "\n" +
     "        </td>\r" +
     "\n" +

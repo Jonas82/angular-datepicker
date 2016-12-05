@@ -239,6 +239,9 @@ Module.directive('datePicker', ['datePickerConfig', 'datePickerUtils', function 
             if (!inValidRange(dates[i])) {
               classList += ' disabled';
             }
+			if (scope.hours && scope.hours.isAmPmFormat) {
+				classList += ' am-pm';
+			}
             classes.push(classList);
           }
         }
